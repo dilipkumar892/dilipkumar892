@@ -1,4 +1,4 @@
-# 👨‍💻 Hi, I'm [Dileep Kumar]!
+# 👨‍💻 Hi, I'm Dileep Kumar!
 
 🔧 **Desktop Support Engineer** | IT Enthusiast  
 Passionate about troubleshooting, system setup, and providing efficient tech support to ensure seamless user experience.
