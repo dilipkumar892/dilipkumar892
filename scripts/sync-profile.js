@@ -77,7 +77,7 @@ async function fetchPublicRepositories() {
 
 function buildProjectCard(project, matchedRepo) {
   const repoExists = !!matchedRepo;
-  const repoUrl = repoExists ? matchedRepo.html_url : `https://github.com/${GITHUB_USERNAME}/${project.slug}`;
+  const repoUrl = repoExists ? matchedRepo.html_url : `https://github.com/${GITHUB_USERNAME}?tab=repositories`;
   const stars = repoExists ? matchedRepo.stargazers_count : 0;
   const forks = repoExists ? matchedRepo.forks_count : 0;
   const language = (repoExists && matchedRepo.language) ? matchedRepo.language : project.primaryLang;
@@ -88,17 +88,17 @@ function buildProjectCard(project, matchedRepo) {
 
   const actionButton = repoExists
     ? `<a href="${repoUrl}"><img src="https://img.shields.io/badge/View_Repository-0078D4?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" /></a>`
-    : `<a href="https://github.com/${GITHUB_USERNAME}?tab=repositories"><img src="https://img.shields.io/badge/Roadmap_Preview-333333?style=for-the-badge&logo=github&logoColor=white" alt="Preview Roadmap" /></a>`;
+    : `<a href="${repoUrl}"><img src="https://img.shields.io/badge/Roadmap_Preview-333333?style=for-the-badge&logo=github&logoColor=white" alt="Preview Roadmap" /></a>`;
 
-  return `    <td width="50%" valign="top" style="padding: 16px; border: 1px solid #1E293B; border-radius: 8px; background-color: #0E1528;">
-      <h3 align="center" style="color: #00F7FF; margin-top: 4px;">🛠️ ${project.title}</h3>
+  return `    <td width="50%" valign="top">
+      <h3 align="center">🛠️ ${project.title}</h3>
       <p align="center">
         ${statusBadge}
         <img src="https://img.shields.io/badge/Language-${encodeURIComponent(language)}-38BDF8?style=flat-square" alt="${language}" />
         ${stars > 0 ? `<img src="https://img.shields.io/badge/Stars-${stars}-FFD700?style=flat-square&logo=star" alt="Stars" />` : ''}
       </p>
-      <p style="color: #CBD5E1; font-size: 13.5px; line-height: 1.5; min-height: 72px;">${project.description}</p>
-      <p align="center" style="margin-top: 12px;">
+      <p>${project.description}</p>
+      <p align="center">
         ${actionButton}
       </p>
     </td>`;
@@ -107,15 +107,15 @@ function buildProjectCard(project, matchedRepo) {
 function buildAdditionalRepoCard(repo) {
   const language = repo.language || 'Code';
   const desc = repo.description || 'Engineering repository maintained by Dileep Kumar.';
-  return `    <td width="50%" valign="top" style="padding: 16px; border: 1px solid #1E293B; border-radius: 8px; background-color: #0E1528;">
-      <h3 align="center" style="color: #38BDF8; margin-top: 4px;">📦 ${repo.name}</h3>
+  return `    <td width="50%" valign="top">
+      <h3 align="center">📦 ${repo.name}</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/Public_Repo-Live-success?style=flat-square&logo=github&logoColor=white" alt="Live Repo" />
         <img src="https://img.shields.io/badge/Lang-${encodeURIComponent(language)}-00F7FF?style=flat-square" alt="${language}" />
         <img src="https://img.shields.io/badge/Stars-${repo.stargazers_count}-FFD700?style=flat-square" alt="Stars" />
       </p>
-      <p style="color: #CBD5E1; font-size: 13.5px; line-height: 1.5; min-height: 60px;">${desc}</p>
-      <p align="center" style="margin-top: 12px;">
+      <p>${desc}</p>
+      <p align="center">
         <a href="${repo.html_url}">
           <img src="https://img.shields.io/badge/Explore_Code-0078D4?style=for-the-badge&logo=github&logoColor=white" alt="Explore Code" />
         </a>
@@ -161,7 +161,7 @@ ${addCard2}
   return `${START_MARKER}
 <!-- Auto-synchronized by GitHub Actions workflow 'profile-sync.yml' -->
 <!-- Last synchronization check: ${timestamp} -->
-<table width="100%" cellspacing="10" cellpadding="0" border="0">
+<table width="100%">
   <tr>
 ${card1}
 ${card2}

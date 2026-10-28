@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 170" width="100%" height="100%">
+  <style>
+    .grid-bg { fill: #ffffff; }
+    .cell-empty { fill: #ebedf0; }
+    .cell-c1 { fill: #9be9a8; }
+    .cell-c2 { fill: #40c463; }
+    .cell-c3 { fill: #30a14e; }
+    .cell-c4 { fill: #216e39; }
+    .snake-body { fill: #0078D4; }
+    .snake-head { fill: #7B2FF7; }
+    @keyframes crawl {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(180px); }
+      100% { transform: translateX(0); }
+    }
+    .crawling-snake {
+      animation: crawl 8s ease-in-out infinite;
+    }
+  </style>
+
+  <rect width="850" height="170" rx="10" class="grid-bg" stroke="#E2E8F0" stroke-width="1.5" />
+
+  <g transform="translate(45, 25)">
+    <g class="cells">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="cell-empty"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="cell-c1"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="cell-empty"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="cell-c2"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="cell-empty"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="cell-empty"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="cell-c3"/>
+
+      <rect x="15" y="0" width="11" height="11" rx="2" class="cell-empty"/>
+      <rect x="15" y="15" width="11" height="11" rx="2" class="cell-empty"/>
+      <rect x="15" y="30" width="11" height="11" rx="2" class="cell-c2"/>
+      <rect x="15" y="45" width="11" height="11" rx="2" class="cell-c4"/>
+      <rect x="15" y="60" width="11" height="11" rx="2" class="cell-c1"/>
+      <rect x="15" y="75" width="11" height="11" rx="2" class="cell-empty"/>
+      <rect x="15" y="90" width="11" height="11" rx="2" class="cell-empty"/>
+
+      <g opacity="0.7">
+        <rect x="30" y="15" width="11" height="11" rx="2" class="cell-c2"/>
+        <rect x="45" y="45" width="11" height="11" rx="2" class="cell-c3"/>
+        <rect x="60" y="30" width="11" height="11" rx="2" class="cell-c1"/>
+        <rect x="75" y="75" width="11" height="11" rx="2" class="cell-c4"/>
+        <rect x="90" y="0" width="11" height="11" rx="2" class="cell-c2"/>
+        <rect x="105" y="60" width="11" height="11" rx="2" class="cell-c1"/>
+        <rect x="120" y="90" width="11" height="11" rx="2" class="cell-c3"/>
+        <rect x="135" y="15" width="11" height="11" rx="2" class="cell-c4"/>
+        <rect x="150" y="30" width="11" height="11" rx="2" class="cell-c2"/>
+        <rect x="165" y="45" width="11" height="11" rx="2" class="cell-c1"/>
+        <rect x="180" y="75" width="11" height="11" rx="2" class="cell-c3"/>
+        <rect x="195" y="60" width="11" height="11" rx="2" class="cell-c2"/>
+        <rect x="210" y="90" width="11" height="11" rx="2" class="cell-c4"/>
+        <rect x="225" y="0" width="11" height="11" rx="2" class="cell-c1"/>
+        <rect x="240" y="15" width="11" height="11" rx="2" class="cell-c3"/>
+        <rect x="255" y="45" width="11" height="11" rx="2" class="cell-c2"/>
+        <rect x="270" y="30" width="11" height="11" rx="2" class="cell-c1"/>
+        <rect x="285" y="75" width="11" height="11" rx="2" class="cell-c4"/>
+        <rect x="300" y="0" width="11" height="11" rx="2" class="cell-c2"/>
+        <rect x="315" y="60" width="11" height="11" rx="2" class="cell-c3"/>
+        <rect x="330" y="90" width="11" height="11" rx="2" class="cell-c1"/>
+        <rect x="345" y="15" width="11" height="11" rx="2" class="cell-c4"/>
+        <rect x="360" y="30" width="11" height="11" rx="2" class="cell-c2"/>
+        <rect x="375" y="45" width="11" height="11" rx="2" class="cell-c3"/>
+        <rect x="390" y="75" width="11" height="11" rx="2" class="cell-c1"/>
+        <rect x="405" y="60" width="11" height="11" rx="2" class="cell-c4"/>
+        <rect x="420" y="90" width="11" height="11" rx="2" class="cell-c2"/>
+        <rect x="435" y="0" width="11" height="11" rx="2" class="cell-c3"/>
+        <rect x="450" y="15" width="11" height="11" rx="2" class="cell-c1"/>
+        <rect x="465" y="45" width="11" height="11" rx="2" class="cell-c4"/>
+        <rect x="480" y="30" width="11" height="11" rx="2" class="cell-c2"/>
+        <rect x="495" y="75" width="11" height="11" rx="2" class="cell-c3"/>
+        <rect x="510" y="0" width="11" height="11" rx="2" class="cell-c1"/>
+        <rect x="525" y="60" width="11" height="11" rx="2" class="cell-c4"/>
+        <rect x="540" y="90" width="11" height="11" rx="2" class="cell-c2"/>
+        <rect x="555" y="15" width="11" height="11" rx="2" class="cell-c3"/>
+        <rect x="570" y="30" width="11" height="11" rx="2" class="cell-c1"/>
+        <rect x="585" y="45" width="11" height="11" rx="2" class="cell-c4"/>
+        <rect x="600" y="75" width="11" height="11" rx="2" class="cell-c2"/>
+        <rect x="615" y="60" width="11" height="11" rx="2" class="cell-c3"/>
+        <rect x="630" y="90" width="11" height="11" rx="2" class="cell-c1"/>
+        <rect x="645" y="0" width="11" height="11" rx="2" class="cell-c4"/>
+        <rect x="660" y="15" width="11" height="11" rx="2" class="cell-c2"/>
+        <rect x="675" y="30" width="11" height="11" rx="2" class="cell-c3"/>
+        <rect x="690" y="45" width="11" height="11" rx="2" class="cell-c1"/>
+        <rect x="705" y="60" width="11" height="11" rx="2" class="cell-c4"/>
+      </g>
+    </g>
+
+    <g class="crawling-snake">
+      <rect x="150" y="45" width="11" height="11" rx="2" class="snake-body" />
+      <rect x="165" y="45" width="11" height="11" rx="2" class="snake-body" />
+      <rect x="180" y="45" width="11" height="11" rx="2" class="snake-body" />
+      <rect x="195" y="45" width="11" height="11" rx="2" class="snake-head" />
+      <circle cx="203" cy="48" r="1.5" fill="#fff" />
+    </g>
+  </g>
+
+  <text x="45" y="145" fill="#64748B" font-family="'Fira Code', monospace" font-size="11">🐍 Contribution Grid Eater &bull; dilipkumar892 (Light Mode)</text>
+</svg>
+

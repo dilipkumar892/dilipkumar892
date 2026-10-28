@@ -57,7 +57,7 @@ function validateReadme() {
     { name: 'Readme Typing SVG', regex: /readme-typing-svg\.demolab\.com/ },
     { name: 'GitHub Readme Stats', regex: /github-readme-stats\.vercel\.app/ },
     { name: 'GitHub Streak Stats', regex: /streak-stats\.demolab\.com|github-readme-streak-stats/ },
-    { name: 'GitHub Activity Graph', regex: /github-readme-activity-graph\.vercel\.app|activity-graph/ },
+    { name: 'GitHub Activity Telemetry Card', regex: /github-profile-summary-cards\.vercel\.app|activity-graph/ },
     { name: 'Visitor Counter', regex: /komarev\.com\/ghpvc/ },
     { name: '3D Contribution Graph Asset', regex: /profile-3d-contrib/ },
     { name: 'Contribution Snake Asset', regex: /github-contribution-grid-snake/ }

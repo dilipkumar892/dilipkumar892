@@ -120,28 +120,25 @@ Hello! I am **Dileep Kumar**, a dedicated and results-driven **Desktop Support E
 ## 📊 Live GitHub Statistics
 
 <div align="center">
-  <table border="0" cellspacing="0" cellpadding="0">
-    <tr valign="top">
-      <td align="center">
-        <a href="https://github.com/dilipkumar892">
-          <img src="https://github-readme-stats.vercel.app/api?username=dilipkumar892&show_icons=true&include_all_commits=true&cache_seconds=1800&locale=en&theme=tokyonight&hide_border=false&border_color=1E293B&bg_color=0B1020&title_color=00F7FF&icon_color=7B2FF7&text_color=CBD5E1&rank_icon=github" alt="Dileep's GitHub Statistics" width="415" />
-        </a>
-      </td>
-      <td align="center">
-        <!-- ==================== 9. CONTRIBUTION STREAK ==================== -->
-        <a href="https://github.com/dilipkumar892">
-          <img src="https://streak-stats.demolab.com/?user=dilipkumar892&theme=tokyonight&background=0B1020&border=1E293B&stroke=7B2FF7&ring=00F7FF&fire=00F7FF&currStreakLabel=00F7FF" alt="Dileep's Contribution Streak" width="415" />
-        </a>
-      </td>
-    </tr>
-  </table>
 
-  <br/>
+  <p align="center">
+    <a href="https://github.com/dilipkumar892">
+      <img src="https://github-readme-stats.vercel.app/api?username=dilipkumar892&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=false&border_color=1E293B&bg_color=0B1020&title_color=00F7FF&icon_color=7B2FF7&text_color=CBD5E1&rank_icon=github" alt="Dileep's GitHub Statistics" height="195" />
+    </a>
+    &nbsp;
+    <!-- ==================== 9. CONTRIBUTION STREAK ==================== -->
+    <a href="https://github.com/dilipkumar892">
+      <img src="https://streak-stats.demolab.com/?user=dilipkumar892&theme=tokyonight&background=0B1020&border=1E293B&stroke=7B2FF7&ring=00F7FF&fire=00F7FF&currStreakLabel=00F7FF" alt="Dileep's Contribution Streak" height="195" />
+    </a>
+  </p>
 
   <!-- ==================== 8. TOP LANGUAGES ==================== -->
-  <a href="https://github.com/dilipkumar892">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dilipkumar892&layout=compact&cache_seconds=1800&theme=tokyonight&hide_border=false&border_color=1E293B&bg_color=0B1020&title_color=00F7FF&icon_color=7B2FF7&text_color=CBD5E1" alt="Top Languages Breakdown" width="415" />
-  </a>
+  <p align="center">
+    <a href="https://github.com/dilipkumar892">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dilipkumar892&layout=compact&theme=tokyonight&hide_border=false&border_color=1E293B&bg_color=0B1020&title_color=00F7FF&icon_color=7B2FF7&text_color=CBD5E1" alt="Top Languages Breakdown" height="195" />
+    </a>
+  </p>
+
 </div>
 
 ---
@@ -151,7 +148,7 @@ Hello! I am **Dileep Kumar**, a dedicated and results-driven **Desktop Support E
 
 <div align="center">
   <p><em>Isometric 3D projection generated automatically by GitHub Actions workflow (<code>profile-3d.yml</code>)</em></p>
-  <img src="https://raw.githubusercontent.com/dilipkumar892/dilipkumar892/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Isometric Contribution Graph" />
+  <img src="profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Isometric Contribution Graph" />
 </div>
 
 ---
@@ -162,20 +159,20 @@ Hello! I am **Dileep Kumar**, a dedicated and results-driven **Desktop Support E
 <div align="center">
   <p><em>Autonomous contribution eater tracking git commits across all repositories</em></p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dilipkumar892/dilipkumar892/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dilipkumar892/dilipkumar892/output/github-contribution-grid-snake.svg" />
-    <img src="https://raw.githubusercontent.com/dilipkumar892/dilipkumar892/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Grid Snake Animation" />
+    <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/github-contribution-grid-snake.svg" />
+    <img src="profile-3d-contrib/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Grid Snake Animation" />
   </picture>
 </div>
 
 ---
 
 <!-- ==================== 12. GITHUB ACTIVITY GRAPH ==================== -->
-## 📈 GitHub Activity Graph
+## 📈 GitHub Activity Telemetry
 
 <div align="center">
   <a href="https://github.com/dilipkumar892">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=dilipkumar892&theme=tokyonight&color=00F7FF&line=7B2FF7&point=38BDF8&area=true&hide_border=false&border_color=1E293B&bg_color=0B1020" width="100%" alt="Dileep's GitHub Activity Graph" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dilipkumar892&theme=tokyonight" width="100%" alt="Dileep's GitHub Activity Details" />
   </a>
 </div>
 
@@ -189,77 +186,77 @@ Hello! I am **Dileep Kumar**, a dedicated and results-driven **Desktop Support E
 </div>
 
 <!-- PROFILE-SYNC:START -->
-<table width="100%" cellspacing="10" cellpadding="0" border="0">
+<table width="100%">
   <tr>
-    <td width="50%" valign="top" style="padding: 16px; border: 1px solid #1E293B; border-radius: 8px; background-color: #0E1528;">
-      <h3 align="center" style="color: #00F7FF; margin-top: 4px;">🛠️ Windows Troubleshooting Toolkit</h3>
+    <td width="50%" valign="top">
+      <h3 align="center">🛠️ Windows Troubleshooting Toolkit</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/Status-In_Active_Development-7B2FF7?style=flat-square&logo=git&logoColor=white" alt="Roadmap Status" />
         <img src="https://img.shields.io/badge/Language-PowerShell-38BDF8?style=flat-square" alt="PowerShell" />
       </p>
-      <p style="color: #CBD5E1; font-size: 13.5px; line-height: 1.5; min-height: 72px;">An advanced Windows 10/11 troubleshooting utility for automated system diagnostics, SFC/DISM repairs, event-log triage, network stack resets, and safe recovery workflows.</p>
-      <p align="center" style="margin-top: 12px;">
+      <p>An advanced Windows 10/11 troubleshooting utility for automated system diagnostics, SFC/DISM repairs, event-log triage, network stack resets, and safe recovery workflows.</p>
+      <p align="center">
         <a href="https://github.com/dilipkumar892?tab=repositories"><img src="https://img.shields.io/badge/Roadmap_Preview-333333?style=for-the-badge&logo=github&logoColor=white" alt="Preview Roadmap" /></a>
       </p>
     </td>
-    <td width="50%" valign="top" style="padding: 16px; border: 1px solid #1E293B; border-radius: 8px; background-color: #0E1528;">
-      <h3 align="center" style="color: #00F7FF; margin-top: 4px;">🛠️ Localhost & Port Diagnostic Toolkit</h3>
+    <td width="50%" valign="top">
+      <h3 align="center">🛠️ Localhost & Port Diagnostic Toolkit</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/Status-In_Active_Development-7B2FF7?style=flat-square&logo=git&logoColor=white" alt="Roadmap Status" />
         <img src="https://img.shields.io/badge/Language-PowerShell%20%2F%20C%23-38BDF8?style=flat-square" alt="PowerShell / C#" />
       </p>
-      <p style="color: #CBD5E1; font-size: 13.5px; line-height: 1.5; min-height: 72px;">Lightweight diagnostic utility for local development servers, probing open socket connections, TCP/UDP port conflicts, LAN connectivity, latency benchmarking, and firewall triage.</p>
-      <p align="center" style="margin-top: 12px;">
+      <p>Lightweight diagnostic utility for local development servers, probing open socket connections, TCP/UDP port conflicts, LAN connectivity, latency benchmarking, and firewall triage.</p>
+      <p align="center">
         <a href="https://github.com/dilipkumar892?tab=repositories"><img src="https://img.shields.io/badge/Roadmap_Preview-333333?style=for-the-badge&logo=github&logoColor=white" alt="Preview Roadmap" /></a>
       </p>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top" style="padding: 16px; border: 1px solid #1E293B; border-radius: 8px; background-color: #0E1528;">
-      <h3 align="center" style="color: #00F7FF; margin-top: 4px;">🛠️ IT Support Automation Tools</h3>
+    <td width="50%" valign="top">
+      <h3 align="center">🛠️ IT Support Automation Tools</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/Status-In_Active_Development-7B2FF7?style=flat-square&logo=git&logoColor=white" alt="Roadmap Status" />
         <img src="https://img.shields.io/badge/Language-PowerShell-38BDF8?style=flat-square" alt="PowerShell" />
       </p>
-      <p style="color: #CBD5E1; font-size: 13.5px; line-height: 1.5; min-height: 72px;">Enterprise IT operations toolkit: silent application deployments, bulk Active Directory onboarding, workstation provisioning, printer mapping, and automated health telemetry.</p>
-      <p align="center" style="margin-top: 12px;">
+      <p>Enterprise IT operations toolkit: silent application deployments, bulk Active Directory onboarding, workstation provisioning, printer mapping, and automated health telemetry.</p>
+      <p align="center">
         <a href="https://github.com/dilipkumar892?tab=repositories"><img src="https://img.shields.io/badge/Roadmap_Preview-333333?style=for-the-badge&logo=github&logoColor=white" alt="Preview Roadmap" /></a>
       </p>
     </td>
-    <td width="50%" valign="top" style="padding: 16px; border: 1px solid #1E293B; border-radius: 8px; background-color: #0E1528;">
-      <h3 align="center" style="color: #00F7FF; margin-top: 4px;">🛠️ AI Personal Assistant</h3>
+    <td width="50%" valign="top">
+      <h3 align="center">🛠️ AI Personal Assistant</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/Status-In_Active_Development-7B2FF7?style=flat-square&logo=git&logoColor=white" alt="Roadmap Status" />
         <img src="https://img.shields.io/badge/Language-Python-38BDF8?style=flat-square" alt="Python" />
       </p>
-      <p style="color: #CBD5E1; font-size: 13.5px; line-height: 1.5; min-height: 72px;">AI-powered desktop assistant for IT engineers featuring natural language command execution, automated maintenance routines, documentation search, and repetitive task dispatching.</p>
-      <p align="center" style="margin-top: 12px;">
+      <p>AI-powered desktop assistant for IT engineers featuring natural language command execution, automated maintenance routines, documentation search, and repetitive task dispatching.</p>
+      <p align="center">
         <a href="https://github.com/dilipkumar892?tab=repositories"><img src="https://img.shields.io/badge/Roadmap_Preview-333333?style=for-the-badge&logo=github&logoColor=white" alt="Preview Roadmap" /></a>
       </p>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top" style="padding: 16px; border: 1px solid #1E293B; border-radius: 8px; background-color: #0E1528;">
-      <h3 align="center" style="color: #38BDF8; margin-top: 4px;">📦 Internet-Speed-Desktop-Widget-Network-Diagnostics-Suite</h3>
+    <td width="50%" valign="top">
+      <h3 align="center">📦 Internet-Speed-Desktop-Widget-Network-Diagnostics-Suite</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/Public_Repo-Live-success?style=flat-square&logo=github&logoColor=white" alt="Live Repo" />
         <img src="https://img.shields.io/badge/Lang-C%23-00F7FF?style=flat-square" alt="C#" />
       </p>
-      <p style="color: #CBD5E1; font-size: 13.5px; line-height: 1.5; min-height: 60px;">Desktop widget and diagnostic suite for real-time bandwidth telemetry, latency tracking, and interface connectivity testing.</p>
-      <p align="center" style="margin-top: 12px;">
+      <p>Desktop widget and diagnostic suite for real-time bandwidth telemetry, latency tracking, and interface connectivity testing.</p>
+      <p align="center">
         <a href="https://github.com/dilipkumar892/Internet-Speed-Desktop-Widget-Network-Diagnostics-Suite">
           <img src="https://img.shields.io/badge/Explore_Code-0078D4?style=for-the-badge&logo=github&logoColor=white" alt="Explore Code" />
         </a>
       </p>
     </td>
-    <td width="50%" valign="top" style="padding: 16px; border: 1px solid #1E293B; border-radius: 8px; background-color: #0E1528;">
-      <h3 align="center" style="color: #38BDF8; margin-top: 4px;">📦 TaskFlow-todo</h3>
+    <td width="50%" valign="top">
+      <h3 align="center">📦 TaskFlow-todo</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/Public_Repo-Live-success?style=flat-square&logo=github&logoColor=white" alt="Live Repo" />
         <img src="https://img.shields.io/badge/Lang-JavaScript-00F7FF?style=flat-square" alt="JavaScript" />
       </p>
-      <p style="color: #CBD5E1; font-size: 13.5px; line-height: 1.5; min-height: 60px;">Lightweight task flow management application for tracking daily support workflows, checklists, and project milestones.</p>
-      <p align="center" style="margin-top: 12px;">
+      <p>Lightweight task flow management application for tracking daily support workflows, checklists, and project milestones.</p>
+      <p align="center">
         <a href="https://github.com/dilipkumar892/TaskFlow-todo">
           <img src="https://img.shields.io/badge/Explore_Code-0078D4?style=for-the-badge&logo=github&logoColor=white" alt="Explore Code" />
         </a>
